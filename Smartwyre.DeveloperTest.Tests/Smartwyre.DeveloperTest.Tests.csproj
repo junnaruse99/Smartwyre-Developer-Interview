@@ -16,6 +16,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Moq" Version="4.20.69" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Smartwyre.DeveloperTest\Smartwyre.DeveloperTest.csproj" />
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Runner\Smartwyre.DeveloperTest.Runner.csproj" />
+  </ItemGroup>
 </Project>
